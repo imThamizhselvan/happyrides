@@ -1,0 +1,80 @@
+<!Doctype html> 
+<html>
+<head>
+<style>
+.boxm
+{
+margin-bottom:10%;
+margin-top:300px;
+margin-right:100px;
+padding-left:300px;
+padding-top:30px;
+padding-right:10px;
+font-weight:bold;
+font-family:courier;
+border: 10px solid blue;
+
+}
+
+.boxmm
+{
+
+border:10px ;
+padding:30px;
+border-width:40px;
+margin:50px;
+max-height:100px;
+background-color:yellow;
+border-style:solid;
+border-color:red;
+
+
+}
+
+
+
+.box { 
+  
+ display: inline-block; 
+   background: red; 
+   width: 100px; 
+   height: 100px; 
+   float: left; 
+   margin: 20px; 
+   color: white; 
+}
+
+#one { 
+   position: relative; 
+   top: 20px; 
+   left: 20px; 
+}
+
+#two { 
+   position: fixed; 
+   top: 20px; 
+   left: 20px; 
+}
+
+</style>
+</head>
+<body>
+<marque style="font-family:arial;font-size:40px;"> hello thamizh </marque>
+
+<div class="box" id="one">One</div>
+<div class="box" id="two">Two</div>
+<div class="box" id="three">Three</div>
+<div class="box" id="four">Four</div>
+
+
+<p class="boxm">
+Hello i m box model
+<p class="boxmm">
+Hello new box
+</p>
+</p>
+</body>
+</html>
+
+
+
