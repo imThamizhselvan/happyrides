@@ -7,11 +7,9 @@
  * # MainCtrl
  * Controller of the workspaceApp
  */
-angular.module('workspaceApp')
-  .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+angular.module('workspaceApp').controller('MainCtrl', ['$scope', '$rootScope', '$state', '$stateParams', function($scope, $rootScope, $state, $stateParams) {
+
+    $scope.searchBike = function () {
+      console.log('hit');
+    }
+  }])
